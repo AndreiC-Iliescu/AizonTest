@@ -1,0 +1,45 @@
+class Locators():
+    # IndexPage
+    signup_id = 'signin2'
+    login_id = 'login2'
+    logout_id = 'logout2'
+    welcome_xpath = '//a[text()="Welcome"]'
+    cart_id = 'cartur'
+    home_xpath = '/html/body/nav/div/div/ul/li[1]/a'
+    phone_xpath = '//a[text()="Phones"]'
+    laptops_xpath = '//a[text()="Laptops"]'
+    monitors_xpath = '//a[text()="Monitors"]'
+    signup_user_input_id = 'sign-username'
+    signup_pass_input_id = 'sign-password'
+    signup_button_xpath = '/html/body/div[2]/div/div/div[3]/button[2]'
+    signin_user_input_id = 'loginusername'
+    signin_pass_input_id = 'loginpassword'
+    signin_button_xpath = '//*[@id="logInModal"]/div/div/div[3]/button[2]'
+    rand_phone_xpath = '//a[text()="Nexus 6"]'
+    rand_laptop_xpath = '//a[text()="Sony vaio i7]'
+    rand_monitor_xpath = '//a[text()="Nexus 6"]'
+
+    # ProductPage
+    add_button_xpath = '//*[@id="tbodyid"]/div[2]/div/a'
+
+    # CartPage
+    delete_button_xpath = '//*[@id="tbodyid"]/tr/td[4]/a'
+    order_button_xpath = '/html/body/div[6]/div/div[2]/button'
+    name_input_id = 'name'
+    country_input_id = 'country'
+    city_input_id = 'city'
+    card_input_id = 'card'
+    month_input_id = 'month'
+    year_input_id = 'year'
+    purchase_button_xpath = '/html/body/div[3]/div/div/div[3]/button[2]'
+    ok_button_xpath = '/html/body/div[10]/div[7]/div/button'
+
+    # Strings
+    user = 'AutoTest'
+    password = 'auto'
+    name = 'John Doe'
+    country = 'Spain'
+    city = 'Salamanca'
+    card = '654765765524'
+    month = '03'
+    year = '2025'
